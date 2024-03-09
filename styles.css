@@ -2,4 +2,46 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #343633;
+    font-family: 'DM Sans', sans-serif;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    color: #DEC1FF;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #DEC1FF;
+}
+
+a:hover {
+    color: #7D70BA;
+}
+
+a:active {
+    color: #5CC8FF;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    line-height: 5vh;
+    align-items: center;
+    background-color: #DEC1FF;
+
+}
+
+.hero h1, p {
+    margin: 0;
+}
+
